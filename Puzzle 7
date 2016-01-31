@@ -1,0 +1,50 @@
+down();
+down();
+down();
+down();
+down();
+down();
+if (getColor() == "red") {
+  right();
+} else {
+  left();
+}
+right();
+up();
+up();
+up();
+up();
+up();
+up();
+if (getColor() == "red") {
+  right();
+} else {
+  left();
+}
+right();
+while (getColor() == "white") {
+    down();
+}
+if (getColor() == "red") {
+  right();
+} else {
+  left();
+}
+right();
+while (getColor() == "white") {
+    up();
+}
+if (getColor() == "red") {
+  right();
+} else {
+  left();
+}
+right();
+while (getColor() == "white") {
+    down();
+}
+if (getColor() == "red") {
+  right();
+} else {
+  left();
+}
