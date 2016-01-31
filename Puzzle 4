@@ -1,0 +1,17 @@
+right();
+down();
+down();
+down();
+down();
+getColor();
+down();
+setColor("yellow");
+right();
+right();
+up();
+right();
+getColor();
+down();
+setColor("red");
+right();
+right();
