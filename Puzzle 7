@@ -1,50 +1,26 @@
-down();
-down();
-down();
-down();
-down();
-down();
-if (getColor() == "red") {
-  right();
-} else {
-  left();
-}
-right();
-up();
-up();
-up();
-up();
-up();
-up();
-if (getColor() == "red") {
-  right();
-} else {
-  left();
-}
-right();
-while (getColor() == "white") {
+while (getColor() == "") {
     down();
 }
-if (getColor() == "red") {
-  right();
-} else {
-  left();
-}
+
 right();
-while (getColor() == "white") {
+right();
+while (getColor() == "") {
     up();
 }
-if (getColor() == "red") {
-  right();
-} else {
-  left();
-}
 right();
-while (getColor() == "white") {
+right();
+while (getColor() == "") {
     down();
 }
-if (getColor() == "red") {
-  right();
-} else {
-  left();
+right();
+right();
+while (getColor() == "") {
+    up();
 }
+right();
+right();
+while (getColor() == "") {
+    down();
+}
+right();
+right();
